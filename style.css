@@ -28,7 +28,43 @@ a {
     color: #F9FAF8;
     background-color: #1F2937;
     justify-content: space-between;
-    padding: 0px 300px 0px 300px;
+    padding: 0px 250px 0px 250px;
+}
+
+.top {
+    padding: 50px 250px 100px 250px;
+
+}
+
+.top-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+}
+
+.awesome-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0px 0px 5px 0px;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color:white;
+    max-width: 100px;
+    padding: 10px;
+    border: 0;
+    margin: 10px 0px;
+    border-radius: 10px;
+
+}
+
+
+
+img {
+    width: 500px;
+    height: auto;
 }
 
 
