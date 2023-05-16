@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    align-items: center;
     min-height: 100vh;
     background-color: #1F2937;
 
@@ -8,12 +9,17 @@ body{
 }
 .header{
     color: white;
-    padding: 0 300px;
+    width: 70%;
+    flex: 1;
 
 }
 #logo{
     width: 70px;
     margin-right: auto;
+}
+#main-photo{
+    border-radius: 20px;
+    width: 500px;
 }
 .navbar{
     display: flex;
@@ -30,47 +36,108 @@ ul a {
 
 .sign-up-header{
     display: flex;
-    padding: 50px 0 50px 0;
+    padding: 20px 0 20px 0;
 }
-.text{
-    max-width: 50%;
+.sign-up-header img{
+    margin-left: 20px;
+}
+.sign-up-header button{
+    background-color: #3382F6;
+    color: white;
+    border: none;
+    padding: 5px 30px 5px 30px;
+    border-radius: 5px;
+}
+.text {
+    margin-right: auto;
+    max-width: 600px;
+}
+.hero{
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+.secondary{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .card-content{
     background-color: white;
     display: flex;
+    width: 100vw;
     flex-direction: column;
+    
     align-items: center;
     justify-content: center;
-    gap: 50px;
-    padding: 20px 0 20px 0;
+    padding-bottom: 20px;
+    flex: 1;
+
 
 }
 .cards{
     display: flex;
     justify-content: center;
+    gap: 50px;
+    padding-top: 10px;
 }
 .card{
-    width: 300px;
+    width: 200px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px
+    column-gap: 50px;
+}
+.card-img{
+    width: 200px;    
+    border-radius: 15px;
 }
 .quote{
     background-color: #e5e7eb;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+    gap: 10px;
+    width: 100vw;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+.quote span{
+    font-style: italic;
+    align-self: center;
+}
+.quote > div {
+    font-weight: 600;
+    align-self: flex-end;
+
+}
+.call-to-action{
+    background-color: white;
+    display: flex;
+    flex: 1;
     justify-content: center;
     align-items: center;
-    padding: 50px
+    width: 100vw;
+
+}
+.call-to-action > div{
+    background-color: #3382F6;
+    width: 70%;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
 }
 
 .footer{
     display: flex;
     margin-top: auto;
+    padding-top: 5px;
     justify-content: center;
     align-items: center;
     color: white;
+    width: 100vw;
 }
