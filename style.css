@@ -1,152 +1,76 @@
 body{
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    background-color: #1F2937;
+
+    
 }
-
-
-a {
-    text-decoration: none;
+.header{
     color: white;
+    padding: 0 300px;
+
 }
-div.logo {
+#logo{
+    width: 70px;
+    margin-right: auto;
+}
+.navbar{
     display: flex;
-    font-weight: bold;
-    font-size: 24px;
-    align-items: center;
 }
-ul.links {
+ul.header-links{
     list-style-type: none;
-    padding: 0;
     display: flex;
-    gap: 20px;
+    gap: 10px;
+}
+ul a {
+    text-decoration: none;
+    color: inherit
 }
 
-div.header, div.top {
+.sign-up-header{
     display: flex;
-    color: #F9FAF8;
-    background-color: #1F2937;
-    justify-content: space-between;
-    padding: 0px 250px 0px 250px;
+    padding: 50px 0 50px 0;
+}
+.text{
+    max-width: 50%;
 }
 
-div.footer {
-    display: flex;
-    color: #F9FAF8;
-    background-color: #1F2937;
-    justify-content: center;
-    padding: 30px;
-}
-
-div.top {
-    padding: 50px 250px 100px 250px;
-    color: #E5E7EB;
-}
-
-div.top-text {
-    display: flex;
-    flex-direction: column;
-    max-width: 350px;
-}
-
-div.awesome-text {
-    font-size: 48px;
-    font-weight: bold;
-    color: #F9FAF8;
-    margin: 0px 0px 5px 0px;
-}
-
-button.sign-up {
-    background-color: #3882F6;
-    color:white;
-    max-width: 100px;
-    padding: 10px;
-    border: 0;
-    margin: 10px 0px;
-    border-radius: 10px;
-
-}
-button.sign-up-2 {
-    background-color: #3882F6;
-    font-weight: bold;
-    color:white;
-    padding: 10px;
-    border: 3px solid white;
-    border-radius: 10px;
-    width: 150px;
-
-}
-
-div.info {
+.card-content{
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 300px 50px 300px;
-
-}
-
-div.title {
-    font-size: 36px;
-    font-weight: bold;
-    color: #1F2937;
-    padding: 50px 0px 50px 0px;
-
-}
-
-div.card-list {
-    display: flex;
     justify-content: center;
     gap: 50px;
+    padding: 20px 0 20px 0;
+
 }
-div.card {
-    width: 150px;
+.cards{
+    display: flex;
+    justify-content: center;
 }
-div.card-text {
-    color: #1F2937;
+.card{
+    width: 300px;
     text-align: center;
-}
-div.quote {
     display: flex;
     flex-direction: column;
-    padding: 70px 320px 70px 320px;
-    background-color: #E5E7EB;
-    color: #1F2937;
-    font-style: italic;
-    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
 }
-div.quote-author {
-    text-align: right;
-    font-weight: bold;
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px
 }
 
-div.call-to-action{
+.footer{
     display: flex;
-    justify-content: space-between;
-    margin: 100px 250px 100px 250px;
-    background-color: #3882F6;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
     color: white;
-    padding: 50px 150px 50px 150px;
-    border-radius: 10px;
 }
-div.call-to-action-text {
-    display: flex;
-    flex-direction: column;
-}
-div.call-to-action-text-bold{
-    font-weight: bold;
-    font-size: 24px;
-}
-
-
-
-
-img.placeholder {
-    width: 500px;
-    height: auto;
-}
-
-img.blue-square {
-    width: 150px;
-    height: auto;
-}
-
-
